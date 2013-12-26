@@ -10,4 +10,9 @@ public interface A {
     public String getValue();
 
     public void setValue(String value);
+
+    public void setCalled(boolean value);
+
+    public boolean isCalled();
+
 }
